@@ -2,6 +2,9 @@
 
 Install as you would normally a Klipper Macro file.
 
+04/30/2022 v0.4.1
+Corrected bugs with M125 and raising the zmin twice.
+
 04/29/2022 v0.4.0
 Corrected bug with slow_load_length being called for feedrate instead of slow_load_feedrate.
 
