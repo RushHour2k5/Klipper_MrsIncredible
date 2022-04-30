@@ -2,6 +2,18 @@
 
 Install as you would normally a Klipper Macro file.
 
+04/29/2022 v0.4.0
+Corrected bug with slow_load_length being called for feedrate instead of slow_load_feedrate.
+
+04/29/2022 v0.3.5
+Corrected bug with missing spaces causing LOW_TEMP_CHECK macro not to load.
+
+04/29/2022 v0.3.4
+Corrected bug with fans_on not being called by JOBCENTER.
+
+04/29/2022 v0.3.3
+Corrected bug for fans variable overwriting the cool variable.
+
 04/26/2022 v0.3.2
 Removed call for variable in HTML UI and added a missing variable for Z_feedrate in m600cfg.
 
